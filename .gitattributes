@@ -1,0 +1,12 @@
+* text=auto
+*.py text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.xml text eol=lf
+
+# Preserve upstream label bytes because download checks use SHA256.
+references/*.txt -text -whitespace
+# Keep upstream renderer formatting unchanged.
+vendor/** -whitespace

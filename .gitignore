@@ -1,0 +1,25 @@
+.venv/
+.cache/
+__pycache__/
+data/raw/
+data/processed/
+outputs/
+*.egg-info/
+.DS_Store
+
+# Local inspection artifacts; reproducible inputs are tracked explicitly.
+references/*.whl
+references/hf_dataset_info.json
+references/seeing_through_touch_tree.json
+references/seeing_through_touch_dataset.py
+references/seeing_through_touch.md
+references/test_1118_touch_instances.txt
+
+# Partial downloads, local configuration and editor artifacts.
+*.part
+*.py[cod]
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/

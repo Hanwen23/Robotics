@@ -1,0 +1,453 @@
+{
+  "repo": "kingJulio/touch-and-go-probe",
+  "revision": "ba0bee2d863aabee6b3d533a4e15618d3d149ab1",
+  "endpoint": "https://hf-mirror.com",
+  "proxy": false,
+  "scope": "complete public probe mirror; subset of the original Touch and Go dataset",
+  "sequences": 22,
+  "metadata_repo": "kaistmm/SeeingThroughTouch",
+  "metadata_revision": "edd0e04430b966fcf08b8e17fe9955f71a2dcbed",
+  "total_bytes": 594945036,
+  "files": [
+    {
+      "path": "data/raw/touch_and_go/20220318_022819/gelsight.mp4",
+      "bytes": 6027256,
+      "sha256": "ff1ecde0cdf79ba50deb130331385bc32f7f4209b56abd0b83a2aedc1368ac96"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_022819/time1.npy",
+      "bytes": 11040,
+      "sha256": "21d841453eb8b65964830c577a8690f31adbb8d7ab867380d35279dcf46a2d4b"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_022819/time2.npy",
+      "bytes": 11040,
+      "sha256": "3e565e763169e20e11e920bff43bf2c99acda927f3712d15ccd3be96ffcdff34"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_022819/video.mp4",
+      "bytes": 105201417,
+      "sha256": "7310765265277ee42f49faaf03ffdfb8006d7d56c36eed885f551a78d20dcf88"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_024755/gelsight.mp4",
+      "bytes": 3137244,
+      "sha256": "a8af72a9c4f0e2de930ee755983300cd65c368c1cfc318cd80c91a64bf7f4417"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_024755/time1.npy",
+      "bytes": 5184,
+      "sha256": "9630cece761ee524a87ea0d225b0ade4c9c08e94ac6a6a33e90be068354110a8"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_024755/time2.npy",
+      "bytes": 5184,
+      "sha256": "2085c27069e195b8ebbd9768ca176a9a07d56c4766588f925163f02f4d4d2158"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_024755/video.mp4",
+      "bytes": 15802418,
+      "sha256": "9249cc7ab9ad2192785820b84f97aa676d656d9f220375f2012b574aa82a54b6"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_233431/gelsight.mp4",
+      "bytes": 7442574,
+      "sha256": "0e4783499637fa5d5a8ba678399bdbedaf52a7a2d9d1af9f4f035459d7a3a792"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_233431/time1.npy",
+      "bytes": 11416,
+      "sha256": "b10b3b847186e58f3b122e9ef9d76872c90f4f4084e42387f8b66bb918a343d1"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_233431/time2.npy",
+      "bytes": 11416,
+      "sha256": "77bd413d856af1d88210d6abc931f368fe9e01f102b41dc42164f2d0f817965c"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_233431/video.mp4",
+      "bytes": 29359835,
+      "sha256": "8c0a3fc675c7955bba6ce3d9c945b024fa2df13ab001ab64cf2ce847c265c6ef"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_233801/gelsight.mp4",
+      "bytes": 814357,
+      "sha256": "ec83dadd3ef03515cc53e0cf9683a99097bc47c4464d2b4ef43e8e73d61033b0"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_233801/time1.npy",
+      "bytes": 1216,
+      "sha256": "9b69ea6bdc1ae8b0c5c0ca4545888625d30417916ded298c0a804da7de9c84de"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_233801/time2.npy",
+      "bytes": 1216,
+      "sha256": "952ae4a3c284a26340a91bdaecfd680f239d6143b9c69437046657eddcd9e466"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_233801/video.mp4",
+      "bytes": 2733706,
+      "sha256": "17f261cdb0a4a59493aa7ed2e5b7fe641011018b03e700d086c566b60b682e5d"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_233930/gelsight.mp4",
+      "bytes": 3037506,
+      "sha256": "66c681b16af1528014ddd6c935271f7d9930f7b14634ac469d7dd8ad7aaa983d"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_233930/time1.npy",
+      "bytes": 4608,
+      "sha256": "8206763f6d09947fb2e5d09ecf013b58fa113b1d2845b39ae913e8a99c49675b"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_233930/time2.npy",
+      "bytes": 4608,
+      "sha256": "a817c8c147fbb9d8614f622bda5b1242b5f19ed708f28489fd05dc820c7c2746"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_233930/video.mp4",
+      "bytes": 22558614,
+      "sha256": "206228c3f5b4dd0a04b93a809c334ba8b1f84e58fcec2a01efa15a8c9c8ae27f"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_234132/gelsight.mp4",
+      "bytes": 3436201,
+      "sha256": "2aab9115f1f4b6234efd87fbedb5c6deabbaab84b7634b3d62369d5810a8c947"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_234132/time1.npy",
+      "bytes": 5232,
+      "sha256": "1621e2ccba319ceb826cb82034ee9c8a0691279bd16e6e5581f9be932bc3b3d2"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_234132/time2.npy",
+      "bytes": 5232,
+      "sha256": "f7582127bed3800bf059c030b43e879c3af71983aed6558328b2064f74758e80"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_234132/video.mp4",
+      "bytes": 14434025,
+      "sha256": "7b3006b6666b3a27477c2c5ea5b7573a98f6b91d4eca2b8b3cb3ca8b04be44a4"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_234445/gelsight.mp4",
+      "bytes": 999056,
+      "sha256": "b45b90fb075d2b8f26ce95f44a06a6cba938f42f04aae507eb88f73c1cea933f"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_234445/time1.npy",
+      "bytes": 1400,
+      "sha256": "7dba8738bb80310756d8c7dc767f5746b72b6e01b5b1b0cdc8ac7ef00ab36fd0"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_234445/time2.npy",
+      "bytes": 1400,
+      "sha256": "338a18929cf0f9c7f69bc68334b4676675601bf643307c40cd7afe35671579e6"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_234445/video.mp4",
+      "bytes": 3013072,
+      "sha256": "9dcfceb7b9d195ac37fde979f447ad0e3eded624ad2180d5c2404f1023a9f6c8"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_234621/gelsight.mp4",
+      "bytes": 1109112,
+      "sha256": "fa23fd499e1eda26de0c5455d72a9f60a65cb6cd1ac451150d3a2a45d6870e5b"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_234621/time1.npy",
+      "bytes": 1952,
+      "sha256": "2eee4a3cc06e6ebeda4f35f04bb57d44006f64089ba82ecb6c3f72691c287eed"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_234621/time2.npy",
+      "bytes": 1952,
+      "sha256": "5d2abb0f19486e698a7fe5bba94f24b5a6eea7cf91a66fbfb5378dbd129bc6ea"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_234621/video.mp4",
+      "bytes": 9113974,
+      "sha256": "631ae5b5c5d2431f31a1edaeb91dc27e58fd8162c4f5551ddfe86f9284278059"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_234805/gelsight.mp4",
+      "bytes": 924515,
+      "sha256": "e797f7c4c32b685288ad513401dd707aae6a1c1f18643b7e36a0649bf8cf6d84"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_234805/time1.npy",
+      "bytes": 1456,
+      "sha256": "c009cf0dfbe3278d0164de43d4a1486138d4b012dfe93592cf55f2fb01d66b28"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_234805/time2.npy",
+      "bytes": 1456,
+      "sha256": "97b01cfd4a990709fe0e8b9291cad02cd98758bb6724f5c45b4eb35e373edff8"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_234805/video.mp4",
+      "bytes": 5230276,
+      "sha256": "35496f9b099633b4600d7174d7c7f8472704ab150ace8fe2405d257022c0b545"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_234954/gelsight.mp4",
+      "bytes": 1914509,
+      "sha256": "f4f84a6353e4d466cf706b8733e652a5a8b7158cdd1f1b31cd6239a65710c69c"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_234954/time1.npy",
+      "bytes": 3504,
+      "sha256": "6fe950fdbf8124011f0fb40d4d1ec5277cd851d48401ebec2c671c09b286ee93"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_234954/time2.npy",
+      "bytes": 3504,
+      "sha256": "3168ddd3b74020e8a854a047f31678f256de79abe11ddc763cdcf15d11addf02"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_234954/video.mp4",
+      "bytes": 18247547,
+      "sha256": "43b724bf479cef7e2f80e2efa0c5981ad7c6eeb68e46c6de2cdebb89cd30d4df"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_235150/gelsight.mp4",
+      "bytes": 925223,
+      "sha256": "666edc3f6ba98847e12603b630dc6814685452969b20a534d41a1ec654b5189a"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_235150/time1.npy",
+      "bytes": 1368,
+      "sha256": "61860b62e635a841d8972ec9316eb0903312f2923afe6405e0cf03eff326c24d"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_235150/time2.npy",
+      "bytes": 1368,
+      "sha256": "33de06ab10178b3951df613bb0fd6cebf758d6148d103bf56fd8bf7d5400109a"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220318_235150/video.mp4",
+      "bytes": 4277016,
+      "sha256": "a77cde65a75afe104fe237aeba0bc7fe90336cb72e37df90b270a1e03b0e9c0d"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220319_001400/gelsight.mp4",
+      "bytes": 5601644,
+      "sha256": "ce8dfdf72bb38ddc9b62c8844cfa523d7fadcfe23509d2f388ce010346a94b55"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220319_001400/time1.npy",
+      "bytes": 9400,
+      "sha256": "e5d7acc60ef16173d6f52bdecb59708abfe158740a9d804396d7907f6ee684d1"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220319_001400/time2.npy",
+      "bytes": 9400,
+      "sha256": "7808ad3275dcb5c63e34058116a2e6923498e68fcfd8074694cf3efc5c5993ae"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220319_001400/video.mp4",
+      "bytes": 44038640,
+      "sha256": "3de3bf79ee16f20ee42d1d22d98020bf2d71dd314837a0e905ad6e54327cc9c3"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220319_001629/gelsight.mp4",
+      "bytes": 1750954,
+      "sha256": "8b37f9dbd4cba19a509abf776ab8e42fbf45e0916a70a1058ea89938e7ead384"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220319_001629/time1.npy",
+      "bytes": 2784,
+      "sha256": "25bae82cc63b9d4e4742d5b6ac15e4e759bc4bc377056fb7e761f7dbf65b3fb2"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220319_001629/time2.npy",
+      "bytes": 2784,
+      "sha256": "a02d547126004a3de4c761a56dc8ed1c9c167cecba222ce75b8dd3c92adec9d7"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220319_001629/video.mp4",
+      "bytes": 5942019,
+      "sha256": "e4c37cc379615291d92d37b33ecc59d5a555e8463b1817b923105e812c128c31"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220319_001819/gelsight.mp4",
+      "bytes": 1856267,
+      "sha256": "371fdc312d0326c15d71345d54b3c25cd59405929f4ffc7bd99409916b7214a5"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220319_001819/time1.npy",
+      "bytes": 2664,
+      "sha256": "c9d9db4d45ce77f7ace9f9a0ee69853c6fd6a17d01e2cf14693e45709b035159"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220319_001819/time2.npy",
+      "bytes": 2664,
+      "sha256": "d27b9430199fa2b481a0d2b3c04a5a25fad5f44e1d48fcc813f26ce91b847469"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220319_001819/video.mp4",
+      "bytes": 4196094,
+      "sha256": "0afe4fafc32c6f74987ab364b3ed319b039a0a4cee87f97260240985d61d386c"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220319_002026/gelsight.mp4",
+      "bytes": 1736393,
+      "sha256": "331f1097114241c7e0e473ecb57868b54c751e6818696666c08f9836aa40e6d4"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220319_002026/time1.npy",
+      "bytes": 2520,
+      "sha256": "c7523d4c55bec786eb9bffc97b43d8ac11d3a401aea053e7eb7c752a40dd8858"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220319_002026/time2.npy",
+      "bytes": 2520,
+      "sha256": "11c3add5c868ffab580460e9978144ba9e65058a55ed06e4b6e73ad25d20705d"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220319_002026/video.mp4",
+      "bytes": 8229853,
+      "sha256": "3b16f264886e2701900b002e496ad7fecb80a2a509097fcf6267a87243ec2fdb"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220319_002203/gelsight.mp4",
+      "bytes": 9224186,
+      "sha256": "c3c2f7ba5494c88a5fa4ec35726761a89e54f81b587bd64be4b2f293696b18e4"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220319_002203/time1.npy",
+      "bytes": 14448,
+      "sha256": "712269ebaebd975292f2eaffa4d59eebddf13041ae33f67719c9dc1ac47f8240"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220319_002203/time2.npy",
+      "bytes": 14448,
+      "sha256": "6cbf6e56dac3d66f1270b4e02b1f3c6a302e9c091a61a8d8f18b94e96c9bc333"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220319_002203/video.mp4",
+      "bytes": 66125309,
+      "sha256": "d90f424d5bebed3bcaf48b592355a759619b5ca1b8af4421b2fd60518e0a8508"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220319_002933/gelsight.mp4",
+      "bytes": 19108591,
+      "sha256": "f5ec8408af8a2405214f528fe9f178a163cc23c2728b21fca0a5ca4f7bcb1605"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220319_002933/time1.npy",
+      "bytes": 25184,
+      "sha256": "f62a576421f575a8534e77b442e32d2d4240175cf1430f99b128a68d3aafaee6"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220319_002933/time2.npy",
+      "bytes": 25184,
+      "sha256": "e229a1d5a3bf55ad6aa450b6cc2e8d3d1f63b075274648b67a6896ef5afb39c6"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220319_002933/video.mp4",
+      "bytes": 107217017,
+      "sha256": "d07130dc8dc4427e90677167105e2c521b72ebb9cb976ef47f47f3fcad4fff48"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220410_024242/gelsight.mp4",
+      "bytes": 876696,
+      "sha256": "2bbf3f6feedcf7a3eecfcaaae8e247edf5e578d1ebaaea0a84538946cadb8a1f"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220410_024242/time1.npy",
+      "bytes": 1368,
+      "sha256": "7521cfd4d165951991cc24e0e447c1cbdb2e74f098f81ae700ca1edf7465b338"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220410_024242/time2.npy",
+      "bytes": 1368,
+      "sha256": "b94f1eaebc607e3c45cae76591b8425b9e2ba1608615b6bbc1beb3af8c7bcd96"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220410_024242/video.mp4",
+      "bytes": 3861046,
+      "sha256": "75671f8aa20bd624be67cae43d83c6c346e8c2d506dc85906710ed1f067e6c0e"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220410_024605/gelsight.mp4",
+      "bytes": 1982924,
+      "sha256": "7c70ed226dabf8c6d4781d83433a0ebacd1ca956fc06a948bebfed8913bcd06f"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220410_024605/time1.npy",
+      "bytes": 3432,
+      "sha256": "8072a2da6fc3267403b5ce1fdfd9d9ee56e7959b888b7ecb3a580ad9fa63c918"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220410_024605/time2.npy",
+      "bytes": 3432,
+      "sha256": "c404630fba5950c493659288b140597e0dbd6e2b15326fd09154ac1b75d46759"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220410_024605/video.mp4",
+      "bytes": 13268226,
+      "sha256": "3b2eb82342b7f4b0a7c226454b715269d81a54a0472ca1c9da7ec45db840e36b"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220410_024747/gelsight.mp4",
+      "bytes": 883982,
+      "sha256": "0134fdbf481e7e74e29277ff383e387e00f8380f54c914447c1917d52fa8f33e"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220410_024747/time1.npy",
+      "bytes": 1312,
+      "sha256": "14041b429a4b5e57bdeddb78b4885ada6c38f49bd4d51954409654bb146bc6c4"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220410_024747/time2.npy",
+      "bytes": 1312,
+      "sha256": "796634eb92ec066ba237c512f9dd8dc0e8f908e727e843fdf4e66e5b4e821fdd"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220410_024747/video.mp4",
+      "bytes": 7544146,
+      "sha256": "b50422550d2a4f2beb5122d9d7799da3048eb4fde96c19439808d7b1bb49aeb5"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220410_024921/gelsight.mp4",
+      "bytes": 1356362,
+      "sha256": "93529ef57a471352803c9c95232f8c91bc9427d94bf801a148b78469b602c3b7"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220410_024921/time1.npy",
+      "bytes": 1992,
+      "sha256": "329e5f56b1f9efd3ac19c616cf8200d860ead4bced974323e450cc2d76e98e20"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220410_024921/time2.npy",
+      "bytes": 1992,
+      "sha256": "95da2df671637be3f2bbddd157593e9baae16fb74ca283c322503ea44ecb4b1c"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220410_024921/video.mp4",
+      "bytes": 16961081,
+      "sha256": "937910c9c0d3f1c3b5e1db76497c59c4d40bda7b516b2ccaf44fe96737ff3a55"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220410_031354/gelsight.mp4",
+      "bytes": 1383275,
+      "sha256": "0faf257f34a824d0bdfe7449f0532c0e8486c1f3fab84b01b0711fdbf9c5e07d"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220410_031354/time1.npy",
+      "bytes": 2400,
+      "sha256": "bce5e05ddf793dcece83f2b4152a3f4f16ab4a92108d4bbef81b04caecf9ed43"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220410_031354/time2.npy",
+      "bytes": 2400,
+      "sha256": "27c8defda1053aa0cb40260a621395cbf5e87e046b630daa7fbc18dea03dcbae"
+    },
+    {
+      "path": "data/raw/touch_and_go/20220410_031354/video.mp4",
+      "bytes": 11829118,
+      "sha256": "5595a1cddd922a26cae07fd212e017d8ee3eaf6a6d20c3bd069286e70b7fdcd4"
+    }
+  ]
+}
